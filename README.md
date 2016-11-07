@@ -1,6 +1,6 @@
 # Bobos3
 Simple library for accessing and manipulating objects via S3 API.
-Tested on Ceph and Cleversafe.
+Tested on Ceph and IBM Cloud Object Storage (Cleversafe).
 # Usage
 ```
 create_bucket(host, bucketName, accessKey, secretAccessKey)
@@ -14,4 +14,4 @@ s3bucket.exists(fileName)
 s3bucket.remove(fileName)
 ```
 # Tests
-To run tests set environment varialbes `S3HOST S3BUCKET S3ACCESSKEY S3SECRETKEY` and run `python test_bobos3.py`.
+To run tests set environment varialbes `S3HOST, S3BUCKET, S3ACCESSKEY, S3SECRETKEY` and run `python test_bobos3.py`.
